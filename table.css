@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(61, 172, 172);
+}
+table{
+    border-collapse: collapse;
+    border: 2px rgb(8, 8, 8);
+}
+tr {
+    background: rgb(179,194,198);
+background: linear-gradient(90deg, rgba(179,194,198,1) 2%, rgba(11,140,166,1) 100%);
+}
+
+td{
+    text-align: center;
+}
+td:hover{
+    background: rgb(181,181,189);
+background: linear-gradient(90deg, rgba(181,181,189,1) 0%, rgba(9,9,121,1) 61%, rgba(0,212,255,1) 100%);
+}
+td {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  table:slidein {
+    from {
+      margin-left: 1%;
+      width: 3%;
+    }
+    to {
+      margin-left: 0%;
+      width: 4%;
+}
