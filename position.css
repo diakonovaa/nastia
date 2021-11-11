@@ -1,0 +1,56 @@
+.static {
+    width: 150px;
+    height: 150px;
+    position: static;
+    border: 2px solid black;
+    text-align: center;
+    background-color:rgb(182, 127, 233);
+    margin-top: 15px;
+}
+.relative {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 2px solid black;
+    text-align: center;
+    background-color:burlywood;
+    top: -20px;
+    right: -20px;
+}
+.fixed {
+    width: 150px;
+    height: 150px;
+    position:fixed;
+    border: 2px solid black;
+    text-align: center;
+    background-color:rgb(58, 197, 202);
+    margin-top: 15px;
+    top: -15px;
+    left: 400px;
+}
+.sticky {
+    width: 150px;
+    height: 150px;
+    position:sticky;
+    border: 2px solid black;
+    text-align: center;
+    background-color:coral;
+    top: 0px;
+    left: 700px;
+}
+.Japan {
+    width: 1400px;
+    height: 900px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background-color: red;
+
+}
