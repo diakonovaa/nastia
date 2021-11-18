@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(224, 213, 213);
+}
+.forma {
+    display: flex;
+    flex-direction: row;
+
+}
+input {
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+}
+.non {
+    height: 50px;
+
+}
+/*
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+*/
+body #visited:visited{
+    color: greenyellow;
+}
+#link {
+    color: hotpink;
+}
+
+body ul li:first-child{
+    color:indigo;
+}
+
+body ul li:only-child{
+    color:rgb(0, 130, 69);
+}
+
+body ul li:last-child{
+    color:rgb(8, 23, 238);
+}
